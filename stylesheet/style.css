@@ -1,11 +1,11 @@
 body{
     font-family: 'Arimo', sans-serif;
-    color: 4D4D4D;
+    color: #4D4D4D;
     font-size: 20px;
 }
 
 .navbar{
-    background-color: #F9F9F9 ;
+    background-color: #F9F9F9 !important;
 }
 
 .navbar-brand{
@@ -45,5 +45,13 @@ a:hover{
 }
 
 .bg-primary{
-    background-color: #0079bf;
+    background-color: #0079BF!important;
+}
+.bg-secondary{
+    background-color: #E4F0F6 !important;
+}
+.patners img{
+    height: 60px;
+    width: auto;
+    margin: 15px 10px;
 }
