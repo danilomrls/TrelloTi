@@ -72,3 +72,44 @@ a:hover{
     background: rgba(196, 201, 204, 0.4);
 }
 
+.language-picker{
+    margin: 0 0 1.2em;
+    padding: 0;
+    background: #fff !important;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.language-picker select{
+    color: #959DA1;
+    background: none;
+    border: 2px solid #EDEFF0;
+    position: auto;
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    padding: .5em;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+.language-picker .dropdown-icon{
+    position: absolute;
+    top: 50%;
+    right: auto;
+    background-image: url("../images/caret.svg");
+    width: 20px;
+    height: 20px;
+    padding: 6px;
+    margin: 0 0 0 -32px;
+    -webkit-transform: translateY(-50%) rotate(90deg);
+    transform: translateY(-50%) rotate(90deg);
+}
+
+.footer{
+    font-size: 15px;
+    line-height: 1.5em;
+}
